@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  print-hello-actions:
+  print-hello-world:
     runs-on: ubuntu-latest
     steps:
       - name: execute echo command
-        run: echo "Hello, GitHub Actions!"
+        run: echo "Hello World!"
